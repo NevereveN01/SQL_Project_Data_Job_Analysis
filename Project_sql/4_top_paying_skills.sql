@@ -13,7 +13,7 @@
     WHERE
         job_title_short = 'Data Analyst'  
         AND job_work_from_home = TRUE 
-        -- AND salary_year_avg IS NOT NULL
+        AND salary_year_avg IS NOT NULL
     GROUP BY
         skills
     ORDER BY
